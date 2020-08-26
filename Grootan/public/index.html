@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>POJO PORTAL</title>
+    <style>
+        * {
+            box-sizing: border-box;
+         }
+
+        #body {
+            text-align: center;
+            background: rgba(87, 0, 87, 0.808);
+        }
+
+        .head {
+            text-align: center;
+            background: border-box;
+        }
+
+        .text {
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 25px ;
+        }
+
+        .text:hover{
+            background-color: white; 
+        }
+
+        .btn {
+            background-color:rgb(181, 163, 185 );
+            border: none;
+            color: white;
+            padding: 3px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 2px;
+        }
+
+        .btn:hover{
+            background-color:yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="body" type="POST" action="/getJSON">
+        <h3 class="head">WEB PORTAL</h3>
+        <input class="text" type="text"><br>
+        <button class="btn">SUBMIT</button>
+    </form>
+</body>
+
+</html>
